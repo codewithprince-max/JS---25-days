@@ -42,3 +42,37 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+
+
+
+//**************************************************** 
+
+// stack (Primitive) , Heap (Non-Primitve) 
+//when we use stack (Primtive) then only copy of variable is recive 
+//when we use heap (Non-Primitve) then original reference in reiceve 
+
+let youtubeName = "Princeaggarwal"
+let antoherYoutubeName = youtubeName;
+
+antoherYoutubeName = "SHikhaaggarwal"
+console.log(antoherYoutubeName);
+console.log(youtubeName)
+
+//when we use stack (Primtive) then only copy of variable is recive 
+
+
+
+let userOne =  {
+    email : "user@google.com",
+    upi : "user@ybl",
+
+}
+ 
+let userTwo = userOne
+
+
+userTwo.email = "Prince@google.com"
+console.log(userTwo);
+console.log(userOne);
+//when we use heap (Non-Primitve) then original reference in reiceve 
