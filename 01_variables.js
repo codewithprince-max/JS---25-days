@@ -9,3 +9,4 @@ rollNumber = 1317;
 studentCity = "Bangluru";
  console.log(rollNumber);
  console.table([studentName,rollNumber,studentCity])
+
