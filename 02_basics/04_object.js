@@ -51,9 +51,26 @@ const user = [
     
 ]
 user[1].email
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('sLoggedIn'));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('sLoggedIn'));
 
+// &&&&&&&&&&&&&&&&&&&&& De-structure and APi &&&&&&&&&&&&&&&
+
+const course = {
+courseName : "js in hindi ",
+Price : "999",
+courseInstructor : "Harry"
+}
+// course.courseInstructor
+const {courseInstructor : Instructor } = course
+console.log(Instructor );
+ {
+    // this is JSON format all api run this format
+ }
+ [
+    {},
+    {}
+ ]
