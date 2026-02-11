@@ -17,12 +17,13 @@ const gameName = new String(`Princeagg`)
 
 const newStirng = "   Prince      "
 // console.log(newStirng)
-// console.log(newStirng.trim());
+// console.log(newStirng.trim()); // trim unnecessary space in the line 
 
 const url ="https:\\prince.com\\prince%13aggarwal"
 // console.log(url.replace('%13' , '-'));
 // console.log(url.includes('prince'));
 console.log(url.split('$'));
+
 
 
 
