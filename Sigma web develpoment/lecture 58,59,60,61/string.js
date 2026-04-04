@@ -1,0 +1,21 @@
+console.log(" Hey today I learn Strings...")
+let a = "Prince";
+console.log(a[0]);
+console.log(a[1]);
+console.log(a[2]);
+console.log(a[3]);
+console.log(a[4]);
+console.log(a[5]);
+console.log(a[6]);
+console.log(a.length);
+let name = "Prince" ;
+let friend  = "harry" ; 
+// console.log("his name is "+ name +" and friend name is "+ friend );
+console.log(`his name is ${name} and his friend name is ${friend} `);
+ let b = "Shivam";
+//  console.log(b.toUpperCase());
+ console.log(b.toLowerCase());
+ console.log(b.slice(2 , 5));
+console.log(b.replace("iv" , "69"));
+console.log(b.concat(a,"Aggarwal"));
+console.log(b.endsWith("qm"));

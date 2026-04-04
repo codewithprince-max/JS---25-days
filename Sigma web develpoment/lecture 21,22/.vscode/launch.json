@@ -1,0 +1,23 @@
+
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    
+    
+{
+    "version": "0.2.0",
+    "configurations": [
+        // ...existing code...
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "d:\\Vs Code\\Sigma web develpoment\\lecture 21,22\\index.html"
+        },
+
+        // Start Live Preview via command
+      
+
+        // ...existing code...
+    ]
+}

@@ -4,7 +4,7 @@ let index = 0
     // console.log(`the value of index is : ${index}`);
     index = index + 3
  }
- let myArray = [`flash`, ' blue','red']
+ let myArray = ['flash', 'blue', 'red']
  let arr = 0
  while (arr< myArray.length) {
     // console.log(`the value of arr is ${myArray[arr]}`);
@@ -19,7 +19,7 @@ let index = 0
     // } while (score<= 10);
     let score = 11
     do {
-        console.log(`the value of score is ${score}`);
+      //   console.log(`the value of score is ${score}`);
         score ++
     } while (score<= 10);
- 
+   

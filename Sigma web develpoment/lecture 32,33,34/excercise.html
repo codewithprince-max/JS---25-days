@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create multi color Nav bar </title>
+
+</head>
+<style>
+    body {
+        background-color: var(--secondary-color);
+    }
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+    /* :root {
+        --primary-color: #318e93;
+        --text-color: whitesmoke;
+        --secondary-color: #7bced1;
+    } */
+     :root {
+        --primary-color: #cbaf11;
+        --text-color: whitesmoke;
+        --secondary-color: #c8dd76;
+    }
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+
+    }
+
+
+
+    nav {
+        background-color: var(--primary-color);
+        padding: 12px 0;
+    }
+
+    li {
+
+        list-style: none;
+        display: inline;
+        padding: 15px;
+        font-weight: bolder;
+
+
+
+    }
+
+    ul li a {
+        color: var(--text-color);
+        text-decoration: none;
+
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Contact us</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

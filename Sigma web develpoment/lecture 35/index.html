@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selector </title>
+    <style>
+/* .box:first-child{ */
+    /* background-color: coral; */
+/* } */
+/* .box::first-line{
+    color: blueviolet;
+} */
+ /* .boxes *{
+    color: rgb(195, 195, 117);
+    border: 2px solid blue;
+ }
+ [data-color="Primary"]{
+    padding-top: 45px;
+ } */
+  /* .box:nth-child(even){
+    color: brown;
+
+  } */
+   /* .box:nth-last-child(3){
+    background-color: blue;
+   } */
+    /* .boxes::after{
+        content:"I am Prince aggarwal";
+    }
+    .boxes::before{
+        content:"I am Prince aggarwal";
+    } */
+     ::selection{
+        color: blueviolet;
+        background-color: black;
+     }
+     .box::first-letter{
+        color: rgb(195, 22, 31);
+     }
+
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="Primary" class="box">I am a first box</div>
+        <div class="box">I am a second box</div>
+        <div class="box">I am a third box</div>
+
+    </div>
+</body>
+</html>

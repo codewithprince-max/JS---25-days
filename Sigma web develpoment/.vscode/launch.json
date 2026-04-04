@@ -1,0 +1,15 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "Brave",
+            "request": "launch",
+            "name": "Open grid2.html",
+            "file": "d:\\Vs Code\\Sigma web develpoment\\lecture 39\\grid2.html"
+        }
+    ]
+}

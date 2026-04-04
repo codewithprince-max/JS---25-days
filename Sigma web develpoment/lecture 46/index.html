@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container {
+            background-color: cornflowerblue;
+            width: 50vw;
+            height: 40vh;
+        }
+
+        .box {
+            background-color: chocolate;
+            width: 5vw;
+            height: 4vh;
+            animation-name: princeKaAnimation;
+            animation-duration: 4s;
+            /* animation-iteration-count: 3; */
+            animation-timing-function: cubic-bezier(0, 0, 0, 0,96);
+            animation-delay: 1s;
+            /* animation-direction: alternate-reverse; */
+            /* animation-play-state: paused; */
+            animation: name duration timing-function delay iteration-count direction fill-mode;
+        animation-fill-mode: backwards;
+        }
+
+        @keyframes princeKaAnimation {
+            from{
+background-color: burlywood;
+            }
+            to{
+                background-color: chocolate;
+                transform: translateX(1000px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Box</div>
+    </div>
+</body>
+
+</html>

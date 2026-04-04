@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making nav bar using FLEXBOX only</title>
+    <style>
+        main{
+            background-color: chartreuse;
+        }
+        .logo img {
+            width: 200px;
+
+        }
+
+        nav {
+
+            display: flex;
+            justify-content: space-around;
+            align-items: normal;
+        }
+
+        .list ul {
+            align-self: center;
+            padding: 19px;
+            display: flex;
+            gap: 50px;
+        }
+
+        .list ul li {
+
+            list-style: none;
+            display: flex;
+            align-items: center;
+            /* padding: 5px; */
+
+        }
+
+        .list-1 ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .list-1 ul {
+            align-self: center;
+            padding: 30px;
+            display: flex;
+            gap: 45px;
+
+        }
+
+        .list ul :nth-last-child(3) {
+            border: 2px solid black;
+            font-size: large;
+            font-weight: bolder;
+            gap: 14px;
+            padding: 14px;
+        }
+        
+           
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"> <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Frame-1-2.png" alt="">
+            </div>
+
+
+            <div class="list-1">
+                <ul>
+                    <li>Product <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></li>
+                    <li>Pricing <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></li>
+                    <li>Resources <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg> </li>
+                    <li>Our Company <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>DOWNLOAD</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"></circle>
+    <path d="M8 12C8 18 12 22 12 22C12 22 16 18 16 12C16 6 12 2 12 2C12 2 8 6 8 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+    <path d="M21 15H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 9H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>&nbsp; English</li>
+                    <li> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M17 17L21 21" stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19C15.4183 19 19 15.4183 19 11Z"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></li>
+                </ul>
+
+
+
+            </div>
+        </nav>
+
+
+
+        </nav>
+    </header>
+    <main>
+        <hr>
+    </main>
+</body>
+
+</html>
